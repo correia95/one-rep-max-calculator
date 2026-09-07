@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#dc2626" />
+
+    <title>One-Rep Max Calculator — estimate your 1RM &amp; training weights</title>
+    <meta
+      name="description"
+      content="Estimate your one-rep max from a set you have done, using the Epley, Brzycki, Lombardi and O'Conner formulas. Get the training weight for every percentage of your 1RM, in kg or lb. Free, runs in your browser."
+    />
+    <link rel="canonical" href="https://one-rep-max-calculator.correia95.workers.dev/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="One-Rep Max Calculator" />
+    <meta property="og:description" content="Estimate your 1RM from a real set, compare four formulas, and get training weights for every rep range." />
+    <meta property="og:url" content="https://one-rep-max-calculator.correia95.workers.dev/" />
+    <meta property="og:image" content="https://one-rep-max-calculator.correia95.workers.dev/og.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="One-Rep Max Calculator" />
+    <meta name="twitter:description" content="Estimate your 1RM from a real set and get training weights for every rep range." />
+    <meta name="twitter:image" content="https://one-rep-max-calculator.correia95.workers.dev/og.svg" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "One-Rep Max Calculator",
+        "url": "https://one-rep-max-calculator.correia95.workers.dev/",
+        "applicationCategory": "HealthApplication",
+        "operatingSystem": "Any",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "description": "Estimate a one-rep max from a completed set using several published formulas, and generate a percentage-of-1RM training table."
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "How do you calculate a one-rep max?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Take a weight you lifted for a known number of reps and apply a formula. The Epley formula is weight times one plus reps over thirty; for 100 kg for 5 reps that is about 117 kg. The formulas agree closely at low reps and diverge above about ten."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Which 1RM formula is most accurate?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "None is universally best. Epley is the most common, Brzycki is more conservative, and O'Conner most conservative of all. Using the average of several is a reasonable default. Accuracy is best from sets of two to five reps."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What weight should I use for 5 sets of 5?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Roughly 85 to 87 percent of your one-rep max for a challenging 5x5. The training table on this page converts your estimated 1RM into the weight for every common percentage and rep range."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is it safe to test my true one-rep max?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "A true max attempt should be well warmed up, done with good form, and on the bench press and squat with a spotter or safety pins. For most people an estimate from a set of 3 to 5 reps is enough and lower risk. This is general training information, not coaching or medical advice."
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <noscript>
+      <p style="text-align: center; padding: 20px">
+        This one-rep max calculator needs JavaScript. Enter a weight and the reps you did to estimate
+        your 1RM with the Epley, Brzycki, Lombardi and O'Conner formulas and see training weights for
+        every percentage.
+      </p>
+    </noscript>
+  </body>
+</html>

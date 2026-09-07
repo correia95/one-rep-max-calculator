@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0e0f12" />
+  <text x="90" y="140" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="78" font-weight="800" fill="#e7e9ee" letter-spacing="-1">One-Rep Max Calculator</text>
+  <text x="90" y="192" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="28" fill="#99a1ad">Estimate your 1RM from a real set — plus every training weight</text>
+  <g transform="translate(90 260)" fill="#f87171">
+    <rect x="0" y="30" width="20" height="40" rx="4"/><rect x="24" y="15" width="20" height="70" rx="4"/>
+    <rect x="48" y="42" width="160" height="16"/>
+    <rect x="212" y="15" width="20" height="70" rx="4"/><rect x="236" y="30" width="20" height="40" rx="4"/>
+  </g>
+  <text x="400" y="330" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="90" font-weight="800" fill="#f87171">117 kg</text>
+  <text x="400" y="375" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="24" fill="#99a1ad">from 100 kg × 5 reps</text>
+  <text x="90" y="500" font-family="-apple-system, Segoe UI, Roboto, sans-serif" font-size="24" fill="#f87171">Epley · Brzycki · Lombardi · O'Conner · kg or lb · no sign-up</text>
+</svg>
