@@ -91,3 +91,9 @@ table.pct tbody tr:last-child td { border-bottom: 0; }
 .explainer h3 { font-size: 0.98rem; margin: 16px 0 6px; }
 .explainer p, .explainer li { color: var(--ink-soft); font-size: 0.92rem; }
 .explainer footer { margin-top: 24px; text-align: center; font-size: 0.8rem; color: var(--ink-soft); }
+
+/* a11y-contrast-fixes (auto, WCAG AA 4.5:1) */
+@media (prefers-color-scheme: dark) {
+  .formulapick button.on { color: #0b0b0f; }
+  .share { color: #0b0b0f; }
+}
